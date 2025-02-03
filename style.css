@@ -146,10 +146,11 @@ header {
   text-shadow: 0 0 15px #204ee6;
 }
 .box_5 {
-  display: grid;
-  place-items: center; 
-  height: 50vh; 
+ display: flex;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-top: 17%;
   
 }
