@@ -25,7 +25,7 @@ header {
   display: flex;
   justify-content: flex-end;
   padding: 20px;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -146,13 +146,12 @@ header {
   text-shadow: 0 0 15px #204ee6;
 }
 .box_5 {
- display: flex;
+  display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 17%;
-  
 }
 
 .box_5 ul {
@@ -191,7 +190,7 @@ header {
 
   .box_5  
   {
-    padding-top: 150%;
+    padding-top: 250%;
   }
   .box_5 ul {
     flex-wrap: wrap;
@@ -215,6 +214,7 @@ header {
    position: absolute;
    top: 44%;
    left: 30%;
+   padding-top: 50%;
     
   }
 }
@@ -420,6 +420,7 @@ header {
 
   .sobre-mim {
     font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    padding-left: 70px;
   }
 
   .box_6 p {
@@ -476,6 +477,7 @@ header {
   animation: girar 7s linear infinite;
   animation-delay: var(--deley);
   transition: transform 0.4s ease;
+  left: -20%;
 }
 
 .rotaçao li img:hover {
