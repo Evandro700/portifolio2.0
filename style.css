@@ -146,28 +146,26 @@ header {
   text-shadow: 0 0 15px #204ee6;
 }
 .box_5 {
-  display: flex;
-  flex-direction: column-reverse;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
+  display: grid;
+  place-items: center; 
+  height: 50vh; 
   width: 100%;
-  top: 10%;
-  padding-top: 70px;
+  padding-top: 17%;
+  
 }
 
 .box_5 ul {
-  padding-top: 7px;
+   display: flex;
   gap: 20px;
   list-style: none;
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .box_5 img {
   width: 30px;
   height: 30px;
-  filter: grayscale(90%);
+  filter: grayscale(80%);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
@@ -187,6 +185,10 @@ header {
 /* Responsividade para Telas Pequenas (Smartphones) */
 @media (max-width: 480px) {
 
+  .box_5  
+  {
+    padding-top: 150%;
+  }
   .box_5 ul {
     flex-wrap: wrap;
     justify-content: center;
@@ -221,12 +223,12 @@ header {
 
     }
   .box_2 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     
   }
 
   .box_2 h2 span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .texto-animado {
